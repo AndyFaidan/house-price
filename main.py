@@ -9,7 +9,7 @@ st.image(image, use_column_width=True)
 data = pd.read_csv('kc_house_data.csv')
 model = pickle.load(open('estimasi_rumah.sav', 'rb'))
 st.title('Estimasi Harga Rumah')
-
+st.text('(andy sofyan guspriyanto 191351112)')
 #input data
 bedrooms = st.number_input('Berapa Banyak Kamar')
 
